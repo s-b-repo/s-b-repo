@@ -39,7 +39,7 @@
 
 <br/>
 
-<img align="right" src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216571e926af03727bedc/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/hacker.gif" width="300"/>
+<img align="right" src="https://octodex.github.com/images/hula_loop_octodex03.gif" width="240"/>
 
 ### `> whoami`
 
@@ -238,9 +238,8 @@ motto: "Break it to understand it. Build it to defend it."
 
 <br/><br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=s-b-repo&theme=radical" width="32%" />
-<img src="https://streak-stats.demolab.com/?user=s-b-repo&theme=radical&hide_border=true&background=0d1117&ring=ff6e6e&fire=ff6e6e&currStreakLabel=ff6e6e&sideLabels=c9d1d9&dates=555555" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/commits?username=s-b-repo&theme=radical" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=s-b-repo&theme=radical" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=s-b-repo&theme=radical&hide_border=true&background=0d1117&ring=ff6e6e&fire=ff6e6e&currStreakLabel=ff6e6e&sideLabels=c9d1d9&dates=555555" width="49%" />
 
 <br/><br/>
 
