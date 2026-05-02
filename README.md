@@ -240,7 +240,7 @@ motto: "Break it to understand it. Build it to defend it."
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=s-b-repo&theme=radical" width="32%" />
 <img src="https://streak-stats.demolab.com/?user=s-b-repo&theme=radical&hide_border=true&background=0d1117&ring=ff6e6e&fire=ff6e6e&currStreakLabel=ff6e6e&sideLabels=c9d1d9&dates=555555" width="32%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=s-b-repo&theme=radical&utcOffset=0" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/commits?username=s-b-repo&theme=radical" width="32%" />
 
 <br/><br/>
 
