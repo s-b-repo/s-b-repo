@@ -234,17 +234,18 @@ motto: "Break it to understand it. Build it to defend it."
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=s-b-repo&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6e6e&icon_color=ff6e6e&text_color=c9d1d9&ring_color=ff6e6e" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=s-b-repo&theme=radical&hide_border=true&background=0d1117&ring=ff6e6e&fire=ff6e6e&currStreakLabel=ff6e6e&sideLabels=c9d1d9&dates=555555" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=s-b-repo&theme=radical" width="95%" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=s-b-repo&layout=donut-vertical&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6e6e&text_color=c9d1d9&langs_count=8" width="35%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=s-b-repo&theme=radical" width="32%" />
+<img src="https://streak-stats.demolab.com/?user=s-b-repo&theme=radical&hide_border=true&background=0d1117&ring=ff6e6e&fire=ff6e6e&currStreakLabel=ff6e6e&sideLabels=c9d1d9&dates=555555" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=s-b-repo&theme=radical&utcOffset=0" width="32%" />
 
 <br/><br/>
 
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=s-b-repo&bg_color=0d1117&color=ff6e6e&line=ff6e6e&point=c9d1d9&area=true&area_color=ff6e6e&hide_border=true" width="95%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=s-b-repo&theme=radical" width="32%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=s-b-repo&theme=radical" width="32%" />
 
 </div>
 
