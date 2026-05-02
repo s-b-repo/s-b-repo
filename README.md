@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:161b22,100:ff6e6e&height=300&section=header&text=S.B&fontSize=90&fontColor=ff6e6e&animation=twinkling&fontAlignY=35&desc=%E2%98%A0%EF%B8%8F%20Security%20Researcher%20%E2%80%A2%20Tool%20Builder%20%E2%80%A2%20Chaos%20Engineer%20%E2%98%A0%EF%B8%8F&descAlignY=55&descSize=18&descColor=c9d1d9" width="100%"/>
+![header](https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:161b22,100:ff6e6e&height=300&section=header&text=S.B&fontSize=90&fontColor=ff6e6e&animation=twinkling&fontAlignY=35&desc=%E2%98%A0%EF%B8%8F%20Security%20Researcher%20%E2%80%A2%20Tool%20Builder%20%E2%80%A2%20Chaos%20Engineer%20%E2%98%A0%EF%B8%8F&descAlignY=55&descSize=18&descColor=c9d1d9)
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF6E6E&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%94%AA+Building+offensive+%26+defensive+tools;%F0%9F%A6%80+Rust+%7C+Go+%7C+Python+%7C+PowerShell;%F0%9F%92%80+280%2B+repositories+of+pure+chaos" alt="Typing SVG" /></a>
@@ -18,11 +18,7 @@
 <br/>
 
 <!-- Snake animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
-</picture>
+<img alt="github-snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
 
 </div>
 
@@ -43,7 +39,7 @@
 
 <br/>
 
-<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjV5Z3A2OGx4dWJ4MWtvZnN1c3JhZWh0OHJjN25jczh0NWJzc3VhZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="300"/>
+<img align="right" src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216571e926af03727bedc/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/hacker.gif" width="300"/>
 
 ### `> whoami`
 
@@ -239,7 +235,7 @@ motto: "Break it to understand it. Build it to defend it."
 <br/>
 
 <img src="https://github-readme-stats.vercel.app/api?username=s-b-repo&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6e6e&icon_color=ff6e6e&text_color=c9d1d9&ring_color=ff6e6e" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=s-b-repo&theme=radical&hide_border=true&background=0d1117&ring=ff6e6e&fire=ff6e6e&currStreakLabel=ff6e6e&sideLabels=c9d1d9&dates=555555" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=s-b-repo&theme=radical&hide_border=true&background=0d1117&ring=ff6e6e&fire=ff6e6e&currStreakLabel=ff6e6e&sideLabels=c9d1d9&dates=555555" width="49%" />
 
 <br/><br/>
 
@@ -282,6 +278,6 @@ motto: "Break it to understand it. Build it to defend it."
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:ff6e6e&height=120&section=footer" width="100%" />
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:ff6e6e&height=120&section=footer)
 
 </div>
