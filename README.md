@@ -16,6 +16,8 @@
 ![Followers](https://img.shields.io/github/followers/s-b-repo?style=for-the-badge&color=ff6e6e&labelColor=0d1117&logo=github)
 &nbsp;
 ![Repos](https://img.shields.io/badge/REPOS-280+-ff6e6e?style=for-the-badge&labelColor=0d1117&logo=github)
+&nbsp;
+[![Website](https://img.shields.io/badge/WEBSITE-cybersec.org.za-ff6e6e?style=for-the-badge&labelColor=0d1117&logo=firefoxbrowser&logoColor=ff6e6e)](https://cybersec.org.za)
 
 <br/>
 
@@ -64,6 +66,22 @@ motto: "Break it to understand it. Build it to defend it."
 ```
 
 <br clear="right"/>
+
+---
+
+<div align="center">
+
+## Work With Me
+
+**Independent offensive-security practice — [cybersec.org.za](https://cybersec.org.za)**
+
+Custom pentesting tools · vulnerability research &amp; exploit development · code &amp;
+open-source audits · vendor product security testing · detection engineering.
+Fixed-scope, evidence-based engagements.
+
+[![Hire / learn more at cybersec.org.za](https://img.shields.io/badge/HIRE%20%2F%20LEARN%20MORE-cybersec.org.za-ff6e6e?style=for-the-badge&labelColor=0d1117&logo=firefoxbrowser&logoColor=ff6e6e)](https://cybersec.org.za)
+
+</div>
 
 ---
 
