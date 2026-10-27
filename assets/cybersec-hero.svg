@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Cyber Sec — S.B Security Research Lab</title>
+  <desc id="desc">A bespoke midnight-black and sentinel-blue technical banner with a grid, an abstract shield and the statement: Break it to understand it. Build it to defend it.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="0.55" stop-color="#020508"/>
+      <stop offset="1" stop-color="#061329"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#1e80ff" stop-opacity="0.26"/>
+      <stop offset="0.55" stop-color="#07529e" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#15549b" stroke-opacity="0.22" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#1e80ff"/>
+      <stop offset="0.65" stop-color="#00aadd"/>
+      <stop offset="1" stop-color="#00aadd" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b2a54"/>
+      <stop offset="1" stop-color="#041021"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="17" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="17" fill="url(#grid)"/>
+  <circle cx="965" cy="210" r="370" fill="url(#halo)"/>
+  <path d="M0 72H1200M0 372H1200" stroke="#1e80ff" stroke-opacity="0.25"/>
+  <path d="M57 84H654" stroke="url(#line)" stroke-width="2"/>
+  <path d="M57 83V66M57 84V97" stroke="#00aadd" stroke-width="2"/>
+
+  <!-- Quiet circuit traces that sit behind the emblem. -->
+  <g stroke="#1557ad" stroke-width="1.4" fill="none" opacity="0.4">
+    <path d="M752 94h80l22 22h65M740 324h102l28-28h48M1080 93h60v43M1101 333h51v-37"/>
+    <path d="M827 52v49M1104 180h69M810 268h-69"/>
+  </g>
+  <g fill="#1e80ff">
+    <circle cx="752" cy="94" r="3"/><circle cx="919" cy="116" r="3"/>
+    <circle cx="740" cy="324" r="3"/><circle cx="1173" cy="180" r="3"/>
+    <circle cx="810" cy="268" r="3"/>
+  </g>
+
+  <!-- Original geometric security insignia, inspired by the site's sentinel-blue styling. -->
+  <g transform="translate(958 207)">
+    <circle r="139" fill="none" stroke="#1e80ff" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="2 10"/>
+    <circle r="113" fill="none" stroke="#1681ff" stroke-opacity="0.48" stroke-width="1.5"/>
+    <circle r="91" fill="none" stroke="#00aadd" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="8 12"/>
+    <path d="M-113 0H-142M113 0H142M0-113V-142M0 113V142" stroke="#00aadd" stroke-width="2"/>
+    <path d="M0-75L70-44V9C70 54 37 78 0 93C-37 78-70 54-70 9V-44Z" fill="url(#shield)" stroke="#1e80ff" stroke-width="4"/>
+    <path d="M0-60L55-36V8C55 42 29 64 0 77C-29 64-55 42-55 8V-36Z" fill="none" stroke="#00aadd" stroke-opacity="0.38" stroke-width="1.5"/>
+    <path d="M-29 0L-9 20L32-25" fill="none" stroke="#00c6ec" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+    <circle cx="0" cy="0" r="139" fill="none" stroke="#00aadd" stroke-opacity="0.07" stroke-width="16"/>
+  </g>
+
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <text x="57" y="51" font-size="26" font-weight="800" fill="#d5e9ff" letter-spacing="3">CYBER<tspan fill="#1e80ff">SEC</tspan></text>
+    <text x="1139" y="47" text-anchor="end" font-family="'Courier New',monospace" font-size="14" fill="#7396c4" letter-spacing="1.5">SOUTH AFRICA // EST. 2017</text>
+    <text x="57" y="142" font-family="'Courier New',monospace" font-size="16" fill="#00aadd" letter-spacing="2">OPERATOR S.B  /  OFFENSIVE &amp; DEFENSIVE ENGINEERING</text>
+    <text x="54" y="222" font-size="78" font-weight="800" fill="#e2efff" letter-spacing="-2">SECURITY</text>
+    <text x="54" y="301" font-size="78" font-weight="800" fill="#e2efff" letter-spacing="-2">RESEARCH<tspan fill="#1e80ff">.</tspan></text>
+    <text x="57" y="342" font-family="'Courier New',monospace" font-size="18" fill="#8ab5e5" letter-spacing="0.2">BREAK IT TO UNDERSTAND IT. BUILD IT TO DEFEND IT.</text>
+    <text x="57" y="398" font-family="'Courier New',monospace" font-size="15" fill="#80a9d7" letter-spacing="1.5">PENTESTING   /   EXPLOIT RESEARCH   /   DETECTION ENGINEERING</text>
+    <text x="1140" y="398" text-anchor="end" font-family="'Courier New',monospace" font-size="15" fill="#00aadd">CYBERSEC.ORG.ZA  ↗</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="418" rx="16" fill="none" stroke="#1e80ff" stroke-opacity="0.35" stroke-width="2"/>
+</svg>
