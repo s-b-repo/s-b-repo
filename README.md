@@ -7,11 +7,12 @@
 
 [![Focus](https://img.shields.io/badge/FOCUS-SECURITY_RESEARCH-1e80ff?style=flat-square&labelColor=020508)](https://cybersec.org.za/research.html)
 [![Practice](https://img.shields.io/badge/PRACTICE-INDEPENDENT-00aadd?style=flat-square&labelColor=020508)](https://cybersec.org.za)
-[![Open source](https://img.shields.io/badge/OPEN_SOURCE-280%2B_PROJECTS-1e80ff?style=flat-square&labelColor=020508)](https://github.com/s-b-repo?tab=repositories)
+[![Repositories](https://img.shields.io/badge/PUBLIC_REPOS-310%2B-1e80ff?style=flat-square&labelColor=020508)](https://github.com/s-b-repo?tab=repositories)
+[![Since](https://img.shields.io/badge/SHIPPING_SINCE-2017-00aadd?style=flat-square&labelColor=020508)](https://github.com/s-b-repo)
 
-**Offensive research. Defensive engineering. Evidence over assumptions.**
+**Offensive research · Defensive engineering · Evidence over assumptions**
 
-[Explore the work](#03--selected-builds) &nbsp;·&nbsp; [Browse the toolkit](#05--open-source-tool-index) &nbsp;·&nbsp; [Work with Cyber Sec](https://cybersec.org.za/contact.html)
+[Flagship work](#03--flagship-work) &nbsp;·&nbsp; [Toolkit](#06--open-source-tool-index) &nbsp;·&nbsp; [Work with Cyber Sec](https://cybersec.org.za/contact.html)
 
 </div>
 
@@ -20,18 +21,27 @@
 ## `01 / OPERATOR PROFILE`
 
 ```yaml
-operator: S.B
-discipline: Security Research & Penetration Testing
-practice: Cyber Sec | South Africa
+operator:     S.B
+discipline:   Security Research & Penetration Testing
+practice:     Cyber Sec | South Africa
 active_since: 2017
-mission: "Break it to understand it. Build it to defend it."
-stack: [Rust, Go, Python, PowerShell, Bash, C]
-areas: [Adversary Simulation, Exploit Research, Code Audits, DFIR]
+mission:      "Break it to understand it. Build it to defend it."
+stack:        [Rust, Go, Python, C/C++, PowerShell, Bash]
+areas:        [Adversary Simulation, Exploit Research, Code Audits, DFIR, Detection Engineering]
+rules:        "Written authorization and agreed scope on every engagement."
 ```
 
-I research how systems fail, build purpose-made tooling to test them, and turn the findings into practical defensive improvements. My work spans **vulnerability research, protocol and binary analysis, application security, offensive tooling, and SIEM/EDR engineering**.
+I research how systems fail, build purpose-made tooling to test them under authorization, and turn the findings into practical defensive improvements. The work spans **vulnerability research, protocol and binary analysis, application security, offensive tooling, and SIEM/EDR engineering** — and the code here is the proof: reproducible experiments and real implementations, not a list of claims.
 
-The code here is part of the proof: reproducible experiments, hands-on implementations, and open-source utilities — not just a list of claims.
+<div align="center">
+
+| &nbsp;&nbsp;Shipping since&nbsp;&nbsp; | &nbsp;&nbsp;Public repositories&nbsp;&nbsp; | &nbsp;&nbsp;Primary languages&nbsp;&nbsp; | &nbsp;&nbsp;Discipline&nbsp;&nbsp; |
+|:---:|:---:|:---:|:---:|
+| **2017** | **310+** | **Rust · Python · Go** | **Offense → Defense** |
+
+</div>
+
+---
 
 ## `02 / CAPABILITIES`
 
@@ -53,16 +63,20 @@ The code here is part of the proof: reproducible experiments, hands-on implement
 
 ---
 
-## `03 / SELECTED BUILDS`
+## `03 / FLAGSHIP WORK`
 
-Four projects that show the breadth of the work — from offensive frameworks to detection infrastructure and deep reverse engineering.
+The projects that best show the range — from offensive research frameworks to a from-scratch inference engine and large-scale reverse engineering. Star counts are live.
 
-| Project | What it demonstrates |
-| :--- | :--- |
-| **[rustsploit](https://github.com/s-b-repo/rustsploit)** · `Rust` | Modular IoT and embedded exploitation research framework. |
-| **[firec2](https://github.com/s-b-repo/firec2)** · `Rust` | Command-and-control channel research for authorized adversary emulation and detection validation. |
-| **[wazuh-setup-auto](https://github.com/s-b-repo/wazuh-setup-auto)** · `Defensive` | Automated SIEM/EDR deployment and security monitoring setup. |
-| **[nfsmw-re](https://github.com/s-b-repo/nfsmw-re)** · `Reverse Engineering` | Large-scale binary analysis, function mapping, and reverse-engineering documentation. |
+| Project | Lang | Stars | What it demonstrates |
+| :--- | :--- | :---: | :--- |
+| **[rustsploit](https://github.com/s-b-repo/rustsploit)** | `Rust` | [![s](https://img.shields.io/github/stars/s-b-repo/rustsploit?style=flat-square&label=&color=1e80ff&labelColor=020508)](https://github.com/s-b-repo/rustsploit) | Modular IoT and embedded exploitation research framework — began as a RouterSploit rewrite, now its own platform. |
+| **[nfsmw-2005-re](https://github.com/s-b-repo/nfsmw-2005-re)** | `Python` | [![s](https://img.shields.io/github/stars/s-b-repo/nfsmw-2005-re?style=flat-square&label=&color=1e80ff&labelColor=020508)](https://github.com/s-b-repo/nfsmw-2005-re) | Large-scale reverse engineering: 6,500+ named functions across documented subsystems, with IDA tooling. |
+| **[peregrine](https://github.com/s-b-repo/peregrine)** | `Rust` | [![s](https://img.shields.io/github/stars/s-b-repo/peregrine?style=flat-square&label=&color=1e80ff&labelColor=020508)](https://github.com/s-b-repo/peregrine) | A Mixture-of-Experts LLM inference engine driving CPU, GPU, RAM and SSD concurrently via io_uring. |
+| **[iNode-VPN](https://github.com/s-b-repo/iNode-VPN)** | `C++` | [![s](https://img.shields.io/github/stars/s-b-repo/iNode-VPN?style=flat-square&label=&color=1e80ff&labelColor=020508)](https://github.com/s-b-repo/iNode-VPN) | Full open-source iNode VPN client — Qt6/KF6 GUI plus a clean-room H3C SSL-VPN backend. 100% FOSS. |
+| **[cau](https://github.com/s-b-repo/cau)** | `Go` | [![s](https://img.shields.io/github/stars/s-b-repo/cau?style=flat-square&label=&color=1e80ff&labelColor=020508)](https://github.com/s-b-repo/cau) | An endpoint detection and response engine built for real coverage, not checkbox telemetry. |
+| **[advanced-shodan-requests](https://github.com/s-b-repo/advanced-shodan-requests)** | `Docs` | [![s](https://img.shields.io/github/stars/s-b-repo/advanced-shodan-requests?style=flat-square&label=&color=1e80ff&labelColor=020508)](https://github.com/s-b-repo/advanced-shodan-requests) | Curated Shodan query collection for exposure discovery and attack-surface mapping. |
+
+---
 
 ## `04 / ENGINEERING STACK`
 
@@ -71,9 +85,9 @@ Four projects that show the breadth of the work — from offensive frameworks to
 ![Rust](https://img.shields.io/badge/Rust-020508?style=flat-square&logo=rust&logoColor=1e80ff)
 ![Go](https://img.shields.io/badge/Go-020508?style=flat-square&logo=go&logoColor=1e80ff)
 ![Python](https://img.shields.io/badge/Python-020508?style=flat-square&logo=python&logoColor=1e80ff)
+![C++](https://img.shields.io/badge/C/C++-020508?style=flat-square&logo=cplusplus&logoColor=1e80ff)
 ![PowerShell](https://img.shields.io/badge/PowerShell-020508?style=flat-square&logo=powershell&logoColor=1e80ff)
 ![Bash](https://img.shields.io/badge/Bash-020508?style=flat-square&logo=gnubash&logoColor=1e80ff)
-![C](https://img.shields.io/badge/C-020508?style=flat-square&logo=c&logoColor=1e80ff)
 ![Linux](https://img.shields.io/badge/Linux-020508?style=flat-square&logo=linux&logoColor=1e80ff)
 ![Docker](https://img.shields.io/badge/Docker-020508?style=flat-square&logo=docker&logoColor=1e80ff)
 ![Wazuh](https://img.shields.io/badge/Wazuh-020508?style=flat-square&logoColor=1e80ff)
@@ -85,149 +99,117 @@ Four projects that show the breadth of the work — from offensive frameworks to
 
 ---
 
-## `05 / OPEN-SOURCE TOOL INDEX`
-
-Research tools, practical utilities and learning resources. Expand a category to browse the repositories.
-
-<details>
-<summary><b>Reconnaissance & Advanced Scanners</b></summary>
-<br/>
-
-| Tool | Description | Link |
-|:-----|:------------|:----:|
-| **Stalkroute** | Advanced traceroute for network path analysis and recon | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/Stalkroute) |
-| **Quicmap** | QUIC protocol port scanner for modern web infrastructure | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/Quicmap) |
-| **Mass Dorker** | Automated Google dorking for search engine reconnaissance | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/mass-dorker) |
-| **Voyage** | Stateful subdomain enumeration and discovery toolkit | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/voyage) |
-| **FTPWeb** | FTP server scanner for network asset discovery | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/ftpweb) |
-
-</details>
-
-<details>
-<summary><b>Exploitation Frameworks & Offensive Security Tools</b></summary>
-<br/>
-
-| Tool | Description | Link |
-|:-----|:------------|:----:|
-| **Rustsploit** | RouterSploit rewrite in Rust — IoT and embedded device exploitation framework | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/rustsploit) |
-| **Rasberry Lie** | Wi-Fi deauthentication tool for wireless security testing | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/rasberry-lie) |
-| **FireC2** | Rust-based command and control framework | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/firec2) |
-| **FBI-NET** | Botnet creation kit for security research | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/FBI-NET) |
-| **IoT-Annihilator** | Modular IoT exploitation and vulnerability testing framework | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/IoT-Annihilator) |
-| **Terylene** | Modified Mirai variant with Go-based C2 (ZeroMQ transport) | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/terylene) |
-| **Rustforce** | High-performance brute force tool in Rust with proxy rotation | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/rustforce) |
-| **Revil DNS** | DNS tunneling C2 payload for covert command channels | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/revil-dns) |
-| **RansomCare** | Open-source ransomware simulator for security testing and education | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/ransomcare) |
-| **Rust Slowloris** | Slowloris denial-of-service tool reimplemented in Rust | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/rust-slowloris) |
-
-</details>
-
-<details>
-<summary><b>Malware Analysis, Forensics & Reverse Engineering</b></summary>
-<br/>
-
-| Tool | Description | Link |
-|:-----|:------------|:----:|
-| **NFSMW 2005 RE** | Need for Speed: Most Wanted reverse engineering — 6,500+ named functions, 30 subsystems | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/nfsmw-re) |
-| **NFSMW 2005 SDK** | Cross-platform mod SDK for NFS:MW — ASI Loader + BepInEx 6 | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/nfsmw-2005-sdk) |
-| **LOLBAS Payload Repo** | Living-off-the-land binary exploitation payloads | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/lolbas-malware-depo) |
-| **PS1ware** | PowerShell malware techniques and payload library | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/ps1ware) |
-| **Eternal Green** | Windows LNK malware dropper research | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/eternal-green) |
-
-</details>
-
-<details>
-<summary><b>DFIR — Digital Forensics & Incident Response</b></summary>
-<br/>
-
-| Tool | Description | Link |
-|:-----|:------------|:----:|
-| **Wazuh Auto Setup** | Automated Wazuh SIEM/EDR deployment for security monitoring | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/wazuh-setup-auto) |
-| **Elastacat** | One-step Elastic Stack installer for rapid SIEM deployment | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/elastacat) |
-
-</details>
-
-<details>
-<summary><b>Network Security, Monitoring & Defense</b></summary>
-<br/>
-
-| Tool | Description | Link |
-|:-----|:------------|:----:|
-| **Rubberup** | Rust-based security audit checker for Arch Linux hardening | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/rubberup) |
-| **RBSL** | Rust + Bash SIEM Logger for security event pipelines | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/RBSL-) |
-| **ByProxy** | Passive proxy discovery scanner for Debian and Arch | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/byproxy) |
-
-</details>
-
-<details>
-<summary><b>Cryptography, Steganography & Data Obfuscation</b></summary>
-<br/>
-
-| Tool | Description | Link |
-|:-----|:------------|:----:|
-| **I2P Traffic Padding** | I2P anonymity network cover traffic plugin | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/i2p-Traffic-Padding-Plugin) |
-| **Ping0-Exfil** | Covert data exfiltration via ICMP ping packets | ![WIP](https://img.shields.io/badge/-WIP-555?style=flat-square) |
-
-</details>
-
-<details>
-<summary><b>Web Application & API Security Testing</b></summary>
-<br/>
-
-| Tool | Description | Link |
-|:-----|:------------|:----:|
-| **OnlyOffice MCP** | MCP server for AI-driven Office document manipulation — 77 async tools | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/onlyoffice-mcp-server) |
-| **WPSripper** | WordPress vulnerability scanner and attack tool | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/wpsripper) |
-| **SkiddedSQL** | SQL injection payload collection for penetration testing | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/skiddedsql) |
-| **API DoS Tester** | API stress-testing and rate limit evaluation tool | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/api-dos) |
-
-</details>
-
-<details>
-<summary><b>Specialized Utilities & Developer Tools</b></summary>
-<br/>
-
-| Tool | Description | Link |
-|:-----|:------------|:----:|
-| **Shodan Key Tester** | Verify Shodan API key validity and access level | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/shodan-api-key-tester) |
-| **ILoveProxies** | Automated free proxy list gathering and validation | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/iloveproxies) |
-| **SSH-Forcing** | Python SSH brute-force dictionary attack demo | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/ssh-forcing.py) |
-| **VM2TV** | Screen-share a VM to a TV or other devices on your local network | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/vm2tv) |
-
-</details>
-
-<details>
-<summary><b>Learning Resources, CTFs & Knowledge Bases</b></summary>
-<br/>
-
-| Resource | Description | Link |
-|:---------|:------------|:----:|
-| **Awesome Shodan Queries** | Curated Shodan search queries for device and vulnerability discovery | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/awesome-shodan-queries) |
-| **Web App Security Checklist** | Comprehensive web application security testing checklist | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/Web-Application-Security-Checklist) |
-| **Ransomware Official Domains** | Threat intelligence reference for ransomware group domains | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/Ransomware_Official_Domains) |
-| **Intune Kali Guide** | Deploy Kali Linux in Microsoft Intune-managed environments | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/intune---kali-linux-guide) |
-| **Detailed Nmap Cheatsheet** | Comprehensive Nmap scanning reference and cheatsheet | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/Detailed-nmap-cheatsheet) |
-| **How Cards Are Cloned** | Educational resource on card cloning techniques | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/how-cards-are-cloned) |
-
-</details>
-
----
-
-## `06 / GITHUB SIGNAL`
+## `05 / GITHUB SIGNAL`
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=s-b-repo&amp;theme=github_dark" width="98%" alt="GitHub contribution and activity overview" />
+<img src="https://github-readme-stats.vercel.app/api?username=s-b-repo&show_icons=true&hide_border=true&bg_color=020508&title_color=1e80ff&icon_color=00aadd&text_color=c9d1d9&include_all_commits=true&count_private=true" width="49%" alt="GitHub statistics" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=s-b-repo&layout=compact&hide_border=true&langs_count=8&bg_color=020508&title_color=1e80ff&text_color=c9d1d9" width="49%" alt="Most used languages" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=s-b-repo&amp;theme=github_dark" width="49%" alt="GitHub contribution statistics" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=s-b-repo&amp;theme=github_dark" width="49%" alt="Repository languages overview" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=s-b-repo&hide_border=true&background=020508&stroke=1e80ff&ring=1e80ff&fire=00aadd&currStreakLabel=1e80ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" width="70%" alt="Contribution streak" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=s-b-repo&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=4" width="98%" alt="Profile trophies" />
 
 </div>
 
 ---
 
+## `06 / OPEN-SOURCE TOOL INDEX`
+
+Research tools, practical utilities and reference material. Everything here is published for authorized testing, defensive validation, and education. Expand a category to browse.
+
+<details open>
+<summary><b>Offensive Frameworks & Exploitation Research</b></summary>
+<br/>
+
+| Tool | Description | Link |
+|:-----|:------------|:----:|
+| **rustsploit** | IoT and embedded exploitation research framework in Rust | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/rustsploit) |
+| **firec2** | C2 research framework for authorized adversary emulation and detection validation | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/firec2) |
+| **gsoap-poc-exploits-2.7** | gSOAP proof-of-concept exploit research for IoT stacks | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/gsoap-poc-exploits-2.7) |
+| **rasberry-lie** | Wi-Fi deauthentication tool for wireless resilience testing | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/rasberry-lie) |
+| **i2cncit** | I2P-based C2 research over anonymous transports | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/i2cncit) |
+
+</details>
+
 <details>
-<summary><sub>Support independent research</sub></summary>
+<summary><b>Reverse Engineering & Binary Analysis</b></summary>
+<br/>
+
+| Tool | Description | Link |
+|:-----|:------------|:----:|
+| **nfsmw-2005-re** | Reverse-engineering project — 6,500+ named functions across 30 subsystems | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/nfsmw-2005-re) |
+| **nfsmw-2005-sdk** | Cross-platform mod SDK — ASI Loader + BepInEx 6 | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/nfsmw-2005-sdk) |
+| **studious-garbanzo** | Forwards a Windows application's traffic through a proxy | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/studious-garbanzo) |
+
+</details>
+
+<details>
+<summary><b>AI, Inference & Security Automation</b></summary>
+<br/>
+
+| Tool | Description | Link |
+|:-----|:------------|:----:|
+| **peregrine** | Rust Mixture-of-Experts inference engine with io_uring | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/peregrine) |
+| **openhack** | AI-powered security-assessment agent for authorized pentesting | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/openhack) |
+| **opencode-mesh** | Coordination mesh for multiple CLI agent instances over MCP/HTTP | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/opencode-mesh) |
+| **yolo26-security-platform** | SOC dashboard with parallel camera workers and multi-frame confirmation | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/yolo26-security-platform) |
+| **onlyoffice-mcp-server** | MCP server for Office document automation — 77 async tools | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/onlyoffice-mcp-server) |
+
+</details>
+
+<details>
+<summary><b>DFIR, Monitoring & Defense</b></summary>
+<br/>
+
+| Tool | Description | Link |
+|:-----|:------------|:----:|
+| **cau** | Endpoint detection and response engine in Go | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/cau) |
+| **wazuh-setup-auto** | Automated Wazuh SIEM/EDR deployment for security monitoring | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/wazuh-setup-auto) |
+| **elastacat** | One-step Elastic Stack installer for rapid SIEM deployment | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/elastacat) |
+| **rubberup** | Rust security-audit checker for Arch Linux hardening | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/rubberup) |
+| **RBSL-** | Rust + Bash SIEM logger for security event pipelines | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/RBSL-) |
+
+</details>
+
+<details>
+<summary><b>Networking, Privacy & Systems</b></summary>
+<br/>
+
+| Tool | Description | Link |
+|:-----|:------------|:----:|
+| **iNode-VPN** | Full open-source VPN client — Qt6/KF6 GUI + clean-room SSL-VPN backend | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/iNode-VPN) |
+| **rustcord** | Rust screen recorder with camera support | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/rustcord) |
+| **linxboard** | Linux soundboard with a GUI for Arch and Debian | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/linxboard) |
+
+</details>
+
+<details>
+<summary><b>Reference, Guides & Knowledge Bases</b></summary>
+<br/>
+
+| Tool | Description | Link |
+|:-----|:------------|:----:|
+| **advanced-shodan-requests** | Curated Shodan queries for device and exposure discovery | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/advanced-shodan-requests) |
+| **cardsz** | RFID/NFC card security assessment guide (Proxmark3 methods) | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/cardsz) |
+| **xlibre-nvidea-guide** | Practical NVIDIA setup and troubleshooting reference | [![Repo](https://img.shields.io/badge/-Repo-1e80ff?style=flat-square&logo=github&logoColor=white)](https://github.com/s-b-repo/xlibre-nvidea-guide) |
+
+</details>
+
+---
+
+<div align="center">
+
+### Let's work together
+
+[![Website](https://img.shields.io/badge/cybersec.org.za-1e80ff?style=for-the-badge&logo=firefox&logoColor=white&labelColor=020508)](https://cybersec.org.za)
+[![Research](https://img.shields.io/badge/RESEARCH-020508?style=for-the-badge&labelColor=020508)](https://cybersec.org.za/research.html)
+[![Contact](https://img.shields.io/badge/CONTACT-00aadd?style=for-the-badge&labelColor=020508)](https://cybersec.org.za/contact.html)
+
+</div>
+
+<details>
+<summary align="center"><sub>Support independent research</sub></summary>
 <p align="center"><br/>
 If this work has helped you, you can support more independent security research with Monero:<br/><br/>
 <code>478Lb78LDscQ8ukEDTZqXgEtjoBX1jMuVGvgfy2RagxZZk89YuyVYsganfLUKnwggz8YiBxhG25yWWiHUppG9uarSiseseY</code><br/><br/>
